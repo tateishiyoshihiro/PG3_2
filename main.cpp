@@ -11,7 +11,6 @@ public:
 	Template(Type1 a, Type2 b) : a(a), b(b) {}
 
 	Template Min(Type1 a, Type2 b) {
-
 		if (a < b)
 		{
 			return static_cast<Type1>(a);
